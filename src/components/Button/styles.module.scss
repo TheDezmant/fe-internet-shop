@@ -1,0 +1,18 @@
+.buttonWrapper {
+  border-radius: 3px;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  &:active{
+    opacity: 0.8;
+  }
+}

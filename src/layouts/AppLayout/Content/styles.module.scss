@@ -1,0 +1,9 @@
+.wrapper {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  overflow-y:scroll;
+  padding: 20px 0;
+  z-index: 998;
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    width: calc(100% - 200px);
+    display: flex;
+   padding: 0 100px;
+}
+.wrapperContent {
+    position: relative;
+    width: calc(100% - 300px);
+    left: 300px;
+}

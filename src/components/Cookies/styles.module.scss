@@ -1,0 +1,46 @@
+.wrapper {
+  position: fixed;
+  bottom: 2px;
+  right: 15px;
+  background-color: #343434;
+  min-width: 15vw;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0.95;
+  z-index: 1000;
+}
+.wrapperText {
+  display: flex;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  color: white;
+}
+.buttonEnter {
+  margin-right: 10px;
+  background-color: lightgrey;
+  border-radius: 3px;
+  border: 0;
+  color: black;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.wrapperButtons {
+  display: flex;
+}
+
+.buttonReject {
+  background-color: #202020;
+  border-radius: 3px;
+  border: 0;
+  color: #676767;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    width: calc(100% - 40px);
+    left: 10px;
+  }
+}
